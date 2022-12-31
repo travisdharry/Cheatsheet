@@ -24,6 +24,7 @@
 `$ heroku login`  
 `$ heroku git:remote -a <myproject>`  
 `$ git push heroku main`  
+`$ heroku logs --tail`  
 
 #### Packages
 `pip list --format=freeze > requirements.txt`  

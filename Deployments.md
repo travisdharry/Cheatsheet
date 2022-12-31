@@ -12,6 +12,9 @@
 **Deploy on Heroku**  
 `$ git push heroku main`  
 
+**View logs**
+`$ heroku logs --tail`  
+
 
 ## Packages
 **List packages installed on environment**  
