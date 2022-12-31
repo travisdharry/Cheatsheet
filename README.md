@@ -25,4 +25,7 @@
 `$ heroku git:remote -a <myproject>`  
 `$ git push heroku main`  
 
+#### Packages
+`pip list --format=freeze > requirements.txt`  
+
 

@@ -13,3 +13,8 @@
 `$ git push heroku main`  
 
 
+## Packages
+**List packages installed on environment**  
+`pip list --format=freeze > requirements.txt`  
+
+
