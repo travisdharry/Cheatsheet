@@ -2,9 +2,9 @@
 Common tasks and CLI commands when setting up a local version
 
 ## Anaconda
-**Create virtual environment**
-```conda create -n <envname> python=3.10.8```
-Activate the new virtual environment
+**Create virtual environment**  
+```conda create -n <envname> python=3.10.8```  
+Activate the new virtual environment  
 conda activate <envname>
 Configure environment variables (reactivate environment when complete) 
 conda env config vars set <my_var=value>
