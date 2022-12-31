@@ -1,19 +1,21 @@
 # Cheatsheet
-Quick reference for my common tasks
 
-## Local Setup
-### Anaconda
+**Quick reference for common tasks**
 
-### Git
+[Local Setup](https://github.com/travisdharry/Cheatsheet/blob/main/LocalSetup.md)
 
-### Heroku
+-Anaconda
+-Git
+-Heroku
 
 
 ## Data Analysis
-### Python
 
+-Python
+-Pandas
 
 
 ## Deployments
+
 
 
