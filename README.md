@@ -1,24 +1,28 @@
 # Cheatsheet
 
-## [Local Setup](https://github.com/travisdharry/Cheatsheet/blob/main/LocalSetup.md)
+## Data Analysis
+[Python, Pandas, etc.](https://github.com/travisdharry/Cheatsheet/blob/main/DataAnalysis.ipynb)
+
+
+## Local Setup
+[Anaconda, VSCode, etc.](https://github.com/travisdharry/Cheatsheet/blob/main/LocalSetup.md)
 
 ### Anaconda  
-```conda create -n <envname> python=3.10.8```  
+`conda create -n <envname> python=3.10.8`  
 `conda activate <envname>`  
 `conda env config vars set <my_var>=<my_value>`  
 `conda env config vars list`  
 
-### Git  
-### Heroku  
+### Visual Studio Code
+`python3.10 -m pip install ipykernel`   
 
 
-## [Detailed Sheet](https://github.com/travisdharry/Cheatsheet/blob/main/DataAnalysis.ipynb)
+## Deployments
+[Heroku](https://github.com/travisdharry/Cheatsheet/blob/main/Deployments.md)
 
-- Python  
-- Pandas  
-
-
-## [Detailed Sheet](https://github.com/travisdharry/Cheatsheet/blob/main/Deployments.md)
-
+### Heroku 
+`$ heroku login`  
+`$ heroku git:remote -a <myproject>`  
+`$ git push heroku main`  
 
 

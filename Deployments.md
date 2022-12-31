@@ -1,6 +1,6 @@
 # Deployments
 
-Common tasks and CLI commands when deploying a project
+**Common tasks and CLI commands when deploying a project**
 
 ## Heroku
 **Log in to Heroku**  

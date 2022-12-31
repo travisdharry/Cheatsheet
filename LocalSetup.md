@@ -1,5 +1,5 @@
 # Local Setup
-Common tasks and CLI commands when setting up a local version
+**Common tasks and CLI commands when setting up a local version**
 
 
 ## Anaconda
