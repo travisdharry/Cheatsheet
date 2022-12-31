@@ -7,20 +7,20 @@
 ## Local Setup
 [Anaconda, VSCode, etc.](https://github.com/travisdharry/Cheatsheet/blob/main/LocalSetup.md)
 
-### Anaconda  
+#### Anaconda  
 `conda create -n <envname> python=3.10.8`  
 `conda activate <envname>`  
 `conda env config vars set <my_var>=<my_value>`  
 `conda env config vars list`  
 
-### Visual Studio Code
+#### Visual Studio Code
 `python3.10 -m pip install ipykernel`   
 
 
 ## Deployments
 [Heroku](https://github.com/travisdharry/Cheatsheet/blob/main/Deployments.md)
 
-### Heroku 
+#### Heroku 
 `$ heroku login`  
 `$ heroku git:remote -a <myproject>`  
 `$ git push heroku main`  
