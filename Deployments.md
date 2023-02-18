@@ -29,6 +29,11 @@ https://github.com/heroku/heroku-buildpack-google-chrome
 https://github.com/heroku/heroku-buildpack-chromedriver
 
 
+
+## Azure
+**Create Azure Database for PostgreSQL flexible server**
+
+
 ## Packages
 **List packages installed on environment**  
 `pip list --format=freeze > requirements.txt`  

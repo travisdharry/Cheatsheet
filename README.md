@@ -8,10 +8,10 @@
 [Anaconda, VSCode, etc.](https://github.com/travisdharry/Cheatsheet/blob/main/LocalSetup.md)
 
 #### Anaconda  
-`conda create -n <envname> python=3.10.8`  
-`conda activate <envname>`  
-`conda env config vars set <my_var>=<my_value>`  
-`conda env config vars list`  
+`$ conda create -n <envname> python=3.10.8`  
+`$ conda activate <envname>`  
+`$ conda env config vars set <my_var>="<my_value>"`  
+`$ conda env config vars list`  
 
 #### Visual Studio Code
 `python3.10 -m pip install ipykernel`   
@@ -27,6 +27,8 @@
 `$ heroku logs --tail`  
 
 #### Packages
-`pip list --format=freeze > requirements.txt`  
+`$ pip install -r requirements.txt`
+`$ pip list --format=freeze > requirements.txt` 
+
 
 
