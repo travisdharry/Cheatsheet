@@ -24,5 +24,4 @@
 ## Visual Studio Code
 
 **Set up Jupyter Notebooks in VS Code**  
-`python3.10 -m pip install ipykernel`  
-
+`pip install ipykernel`  
