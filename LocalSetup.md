@@ -17,6 +17,9 @@
 **Check environment variables**  
 `conda env config vars list`  
 
+**Package Management**
+`$ pip install -r requirements.txt`
+`$ pip list --format=freeze > requirements.txt` 
 
 ## Visual Studio Code
 
