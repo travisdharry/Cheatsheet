@@ -1,0 +1,8 @@
+name,dob_str,dob_mmddyy,dob_excel,address,city,zipcode,serves_alcohol,serves_coffee,neighborhood
+Under the Volcano,"September 18, 1989",1989-09-18,32769,2349 Bissonet St,"Houston, TX",77005,True,,West U
+93 'Til,"December 21, 2020",2020-12-21,44186,1601 W Main St,"Houston, TX",77006,True,,Montrose
+Volcano Room,"May 5, 2016",2016-05-05,42495,4650 E NASA Pkwy,"Seabrook, TX",77586,True,,Clear Lake
+Double Trouble,"December 1, 2010",2010-12-01,40513,3622 Main St,"Houston, TX",77002,True,True,Midtown
+Ca Phe Phin,"September 17, 2010",2010-09-17,40438,1354 E NASA Pkwy,"Houston, TX",77058,,True,Clear Lake
+Campesino Coffee,"November 18, 2016",2016-11-18,42692,2602 Waugh Dr,"Houston, TX",77006,,True,Montrose
+Siphon Coffee,"May 23, 2014",2014-05-23,41782,701 W Alabama St,"Houston, TX",77006,,True,Montrose
