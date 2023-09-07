@@ -4,11 +4,18 @@
 [Detailed Instructions](https://github.com/travisdharry/Cheatsheet/blob/main/detailed/ETL.ipynb)
 
 #### Common commands  
-```path_current = os.getcwd()
+```
+path_current = os.getcwd()
 path_parent = os.path.dirname(path_current)
 path_data = os.path.join(path_parent, 'data')
 ```
+`df = pd.read_excel(path_est, sheet_name='df', dtype={'zipcode':str})`
 `df = df.astype({'zipcode': str})`
+```
+with pd.ExcelWriter('Results.xlsx') as writer:  
+    resultA.to_excel(writer, sheet_name="resultA")
+```
+
 
 ## Cleaning
 [Detailed Instructions](https://github.com/travisdharry/Cheatsheet/blob/main/detailed/DataCleaning.ipynb)
