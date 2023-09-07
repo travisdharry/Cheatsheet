@@ -21,6 +21,19 @@ with pd.ExcelWriter('Results.xlsx') as writer:
 [Detailed Instructions](https://github.com/travisdharry/Cheatsheet/blob/main/detailed/DataCleaning.ipynb)
 
 #### Common commands  
+```
+df.loc[df['name']=="nameA", 'colA'] = 'valueA'
+df['colA'] = df['colA'].str.replace("valueA", "valueB")
+```
+```
+from datetime import date, datetime
+from dateutil.relativedelta import *
+dateStart = "2022-04-01"
+dateStart = np.datetime64(dateStart)
+today = date.today()
+age = relativedelta(now, row["dob_datetime"]).years
+xlrd.xldate_as_datetime(xl_date, 0)
+```
 
 
 ## Local Setup
