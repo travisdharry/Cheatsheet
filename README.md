@@ -4,7 +4,11 @@
 [Detailed Instructions](https://github.com/travisdharry/Cheatsheet/blob/main/detailed/ETL.ipynb)
 
 #### Common commands  
-
+```
+path_current = os.getcwd()
+path_parent = os.path.dirname(path_current)
+path_data = os.path.join(path_parent, 'data')
+```
 
 ## Cleaning
 [Detailed Instructions](https://github.com/travisdharry/Cheatsheet/blob/main/detailed/DataCleaning.ipynb)
