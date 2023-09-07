@@ -4,11 +4,10 @@
 [Detailed Instructions](https://github.com/travisdharry/Cheatsheet/blob/main/detailed/ETL.ipynb)
 
 #### Common commands  
-```
-path_current = os.getcwd()
+```path_current = os.getcwd()
 path_parent = os.path.dirname(path_current)
-path_data = os.path.join(path_parent, 'data')
-```
+path_data = os.path.join(path_parent, 'data')```
+`df = df.astype({'zipcode': str})`
 
 ## Cleaning
 [Detailed Instructions](https://github.com/travisdharry/Cheatsheet/blob/main/detailed/DataCleaning.ipynb)
